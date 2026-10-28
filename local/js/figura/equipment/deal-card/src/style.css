@@ -1,0 +1,40 @@
+.figura-equipment-deal-field {
+	margin: 12px 0 4px;
+	padding: 10px 12px;
+	border-radius: 6px;
+	background: #f5f7f8;
+	border: 1px solid #dfe3e6;
+	pointer-events: none;
+	user-select: none;
+}
+
+.figura-equipment-deal-field__label {
+	display: block;
+	font-size: 12px;
+	line-height: 16px;
+	color: #828b95;
+	margin-bottom: 4px;
+}
+
+.figura-equipment-deal-field__value {
+	display: block;
+	font-size: 15px;
+	line-height: 20px;
+	color: #333;
+	font-weight: 600;
+}
+
+.figura-equipment-deal-field--highlight {
+	background: #fff3cd;
+	border-color: #e0a800;
+	box-shadow: 0 0 0 2px rgba(224, 168, 0, 0.25);
+}
+
+.figura-equipment-deal-field--highlight .figura-equipment-deal-field__label {
+	color: #856404;
+	font-weight: 600;
+}
+
+.figura-equipment-deal-field--highlight .figura-equipment-deal-field__value {
+	color: #856404;
+}
